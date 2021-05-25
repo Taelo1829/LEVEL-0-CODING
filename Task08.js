@@ -8,7 +8,7 @@ function toHoursAndMin(num){
     }else if(minutes == 1){
         return `${hours} hours and ${minutes} minute`;
     }else{
-        return `${hours} hours and ${minutes} minutes`
+        return `${hours} hours and ${minutes} minutes`;
     }
 }
 console.log(toHoursAndMin(121));

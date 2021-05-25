@@ -1,9 +1,27 @@
-let x = 0;
-let y = 1;
-console.log(x);
-console.log(y);
+ function triangle(num){
 
-x = x + 3
-y = y + x
-console.log(x);
-console.log(y);
+   if(num > 0){
+     var str = "";
+
+     for(var i = 0 ; i < num ; i++){
+        for (var x = 0; x <= i; x++) {
+            str = str + "#";
+        }
+       console.log(str);
+       str = "";
+      }
+
+    }else{
+
+     var str = "";
+
+      for(var k = 0 ; k < Math.abs(num) ; k++){
+        for (var t = Math.abs(num); t > k; t--) {
+            str = str + "#";
+        }
+       console.log(str);
+       str = "";
+      }
+    }
+}
+ triangle(-4);

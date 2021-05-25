@@ -28,4 +28,5 @@ function commonChars(string1 , string2){
  }
  console.log(`Common Letters:${commonCharacters}`)
 }
-commonChars("computers","house")
+
+commonChars("computers","house");

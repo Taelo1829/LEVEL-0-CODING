@@ -11,4 +11,4 @@ function vowels(string){
     }
    console.log(characters); 
  }
- vowels("Umuzi")
+ vowels("Umuzi");
