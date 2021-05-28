@@ -6,6 +6,6 @@ function vowels(string) {
         }
     }
     vowels = vowels.slice(0, vowels.length - 2);
-    console.log(vowels);
+    console.log(`Vowels: ${vowels}`);
 }
 vowels("Umuzi");
