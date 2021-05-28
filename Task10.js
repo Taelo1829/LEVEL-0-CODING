@@ -23,7 +23,7 @@ function commonChars(string1, string2) {
         }
     }
     commonLetters = commonLetters.slice(0, commonLetters.length - 2);
-    console.log(`Common Letters:${commonLetters}`);
+    console.log(`Common Letters: ${commonLetters}`);
 }
 
 commonChars("spouse", "house");
